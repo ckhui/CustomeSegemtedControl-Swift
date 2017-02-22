@@ -12,6 +12,8 @@
 		5F318BC01E5D9F7E00F3C6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F318BBE1E5D9F7E00F3C6A3 /* Main.storyboard */; };
 		5F318BC21E5D9F7E00F3C6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F318BC11E5D9F7E00F3C6A3 /* Assets.xcassets */; };
 		5F318BC51E5D9F7E00F3C6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F318BC31E5D9F7E00F3C6A3 /* LaunchScreen.storyboard */; };
+		5F318BCD1E5DA17200F3C6A3 /* CustomeSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F318BCC1E5DA17200F3C6A3 /* CustomeSegmentControl.swift */; };
+		5FC1289B1E5E3F210032D951 /* ImageSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC1289A1E5E3F210032D951 /* ImageSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5F318BC11E5D9F7E00F3C6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F318BC41E5D9F7E00F3C6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F318BC61E5D9F7E00F3C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F318BCC1E5DA17200F3C6A3 /* CustomeSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeSegmentControl.swift; sourceTree = "<group>"; };
+		5FC1289A1E5E3F210032D951 /* ImageSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5F318BBA1E5D9F7E00F3C6A3 /* AppDelegate.swift */,
 				5F318BBC1E5D9F7E00F3C6A3 /* ViewController.swift */,
+				5F318BCC1E5DA17200F3C6A3 /* CustomeSegmentControl.swift */,
+				5FC1289A1E5E3F210032D951 /* ImageSegmentedControl.swift */,
 				5F318BBE1E5D9F7E00F3C6A3 /* Main.storyboard */,
 				5F318BC11E5D9F7E00F3C6A3 /* Assets.xcassets */,
 				5F318BC31E5D9F7E00F3C6A3 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F318BBD1E5D9F7E00F3C6A3 /* ViewController.swift in Sources */,
+				5F318BCD1E5DA17200F3C6A3 /* CustomeSegmentControl.swift in Sources */,
+				5FC1289B1E5E3F210032D951 /* ImageSegmentedControl.swift in Sources */,
 				5F318BBB1E5D9F7E00F3C6A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				5F318BCB1E5D9F7E00F3C6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
