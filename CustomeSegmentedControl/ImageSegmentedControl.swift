@@ -84,7 +84,7 @@ import UIKit
         let labelWidth = self.bounds.width / CGFloat(imageViews.count)
         
         for index in 0...imageViews.count - 1 {
-            var label = imageViews[index]
+            let label = imageViews[index]
             let xPosition = CGFloat(index) * labelWidth
             label.frame = CGRect(x: xPosition, y: 0, width: labelWidth, height: labelHeight)
         }
